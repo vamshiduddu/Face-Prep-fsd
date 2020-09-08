@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple_grid</title>
+</head>
+<style>
+    .grid-container {
+
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        /* grid-template-columns: 1fr 1fr; */
+        grid-gap: 1em;
+        grid-auto-rows: minmax(100px, auto);
+        justify-items: center;
+        align-items: center;
+
+
+    }
+
+    .grid-container>div {
+        padding: 1em;
+        background: grey;
+        display: grid;
+        grid-template-columns: 50% 50%;
+
+    }
+
+    .grid-container :nth-child(even) {
+        background: lightgrey;
+    }
+
+    #div1 {
+        justify-self: center;
+        align-self: center;
+    }
+</style>
+
+<body>
+    <div class="grid-container">
+        <div id="div1">Lorem </div>
+        <div>Lorem ipsum dolor sit amet.2</div>
+        <div>Lorem ipsum dolor sit amet.3</div>
+        <div>Lorem ipsum dolor sit amet.4</div>
+        <div>Lorem ipsum dolor sit amet.5</div>
+        </div2>
+
+</body>
+
+</html>

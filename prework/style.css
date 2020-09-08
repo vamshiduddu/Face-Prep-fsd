@@ -1,0 +1,17 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+}
+
+h4 {
+
+    color: green;
+}
+
+.hello {
+    font-style: italic;
+}
+
+#idName {
+    color: darkgreen;
+}
